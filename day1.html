@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+    <style>
+        #screen {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            border: 3px solid slateblue;
+        }
+
+        #screen>div {
+            width: 19%;
+            height: 200px;
+            border: 1px solid salmon;
+            margin: 5px auto;
+        }
+
+        @media screen and (max-width : 400px) {
+
+            #screen {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border: 3px solid slateblue;
+            }
+
+            #screen>div {
+                width: 90%;
+                height: 200px;
+                border: 1px solid orangered;
+                margin: 5px auto;
+                background-color: black;
+            }
+        }
+
+            @media screen and (max-width : 800px) and (min-width : 401px) {
+
+                #screen {
+                    width: 100%;
+                    display: flex;
+                    /* flex-direction: column; */
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    border: 3px solid slateblue;
+                }
+
+                #screen>div {
+                    width: 45%;
+                    height: 200px;
+                    border: 1px solid blueviolet;
+                    margin: 5px auto;
+                    background-color: brown;
+                }
+
+            }
+        
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+</body>
+
+</html>
