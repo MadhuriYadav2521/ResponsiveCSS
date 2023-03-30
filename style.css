@@ -201,6 +201,7 @@
     width: 8%;
     /* border: 1px solid white; */
     text-align: center;
+    cursor: pointer;
 }
 
 .service-icon i {
@@ -330,7 +331,7 @@
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: rgb(161, 158, 158);
+    background-color: #b2b2b2;
     outline: none;
     text-align: center;
 }
@@ -426,7 +427,7 @@
     justify-content: start;
     gap: 15px;
     align-items: center;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 0px 0px;
 }
 .apps .subtitle{
     font-size: 18px;
@@ -439,11 +440,115 @@
     width: 100%;
 }
 .footer-section{
-    
-    width: 97%;
-    /* border: 1px solid purple; */
-    margin: 66px 0px 0px 260px;
+    width: 100%;
+    background-color: #f7f7f7;
+    /* border: 1px solid slateblue; */
+    margin: 0px 0px 0px 242px;
+    padding: 35px 25px 0px 25px;
 }
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.f-info-group{
+    width: 16%;
+    /* border: 1px solid salmon; */
+}
+.f-info-group:nth-child(1){
+    width: 20%;
+}
+.f-info-group:nth-child(2){
+    width: 17%;
+}
+.f-info-group:nth-child(3){
+    width: 14%;
+}
+.f-info-group:nth-child(4){
+    width: 14%;
+}
+.f-info-group:nth-child(5){
+    width: 14%;
+}
+.f-info-title{
+    width: 100%;
+}
+.f-info-title .subtitle{
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.f-info-title .desc-text{
+    font-size: 13px;
+}
+.f-info-content{
+    width: 100%;
+}
+.f-info-content ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.f-info-title h3:hover{
+    cursor: pointer;
+    color: #278adc;
+
+}
+.f-info-content ul li:hover{
+    color: #278adc;
+
+}
+.policy-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 242px;
+    background-color: #eaebed;
+}
+.policy{
+    padding: 5px 5px;
+    width: auto;
+    cursor: pointer;
+}
+.policy p{
+    border-left: 1px solid gray;
+    padding: 0px 0px 0px 10px;
+
+}
+.policy:nth-child(1) p{
+    border: none
+
+}
+.copyright{
+    margin: 0px 0px 0px 244px;
+    width: 99.7%;
+    background-color: #002447;
+}
+.copyright p{
+    text-align: center;
+    padding: 10px;
+    color: rgb(239, 236, 236);
+}
+.copyright .desc-text{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
