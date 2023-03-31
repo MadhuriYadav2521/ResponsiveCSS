@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #screen {
+            width: 500px;
+            border: 1px solid black;
+            height: 500px;
+            display: flex;
+        }
+
+        #screen div {
+            border: 1px solid salmon;
+            height: 100%;
+            flex-basis: 250px;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        #screen>div:nth-child(1) {
+            flex-shrink: 5;
+        }
+        #screen>div:nth-child(2) {
+            flex-shrink: 7;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+
+</html>
