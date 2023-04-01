@@ -186,7 +186,15 @@
     font-weight: 400;
     letter-spacing: 1px;
 }
-
+.title p {
+    color: rgb(224, 216, 216);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 4px;
+}
 .header-service-icons {
     width: 100%;
     margin: 20px auto;
